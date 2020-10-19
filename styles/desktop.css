@@ -5,20 +5,16 @@
   box-sizing: border-box;
   list-style: none;
 }
-
 html {
+  font-family: "Inter", sans-serif;
   font-size: 62.5%;
 }
-li {
-  font-size: 1.8rem;
-}
-/* wrapper */
+/* Wrapper */
 .wrapper {
   margin: 0 auto;
   border: red dashed 1px;
-  width: 1200px;,
+  width: 1200px;
 }
-
 /* Header css */
 .header {
   border: green dashed 1px;
@@ -31,7 +27,11 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
+  border: green dashed 1px;
+  margin: 0 auto;
 }
 .header__items li {
   padding: 1rem;
+  font-size: 1.8rem;
+  font-weight: 500;
 }
