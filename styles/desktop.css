@@ -14,13 +14,11 @@ html {
 /* Wrapper */
 .wrapper {
   margin: 0 auto;
-  border: red dashed 1px;
   width: 1200px;
 }
 
 /* Header css */
 .header {
-  border: green dashed 1px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -31,14 +29,23 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: green dashed 1px;
   margin: 0 auto;
 }
 
 .header__items li {
   padding: 1rem;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   font-weight: 500;
+}
+
+.header__name {
+  font-weight: 700;
+  font-size: 2rem;
+}
+.header__userName {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-right: 1.7rem;
 }
 
 /** Globales **/
